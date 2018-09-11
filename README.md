@@ -11,5 +11,7 @@ Whitelist is the secondary setting. When using the whitelist, all cookies are bl
 
 ### Interception Settings
 Remove: Delete the cookie as its set (Eliminates tracking)
+
 Poison: Set the value of the cookie to a random value in the same format (Eliminates tracking and can poison the accuracy of determining your online identity)
+
 Swap: Swap your cookie's value with someone else's (Eliminates tracking and destroys the ability to determine your online identity) **never use for session or authentication cookies**

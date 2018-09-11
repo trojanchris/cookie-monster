@@ -1,0 +1,112 @@
+html, body {margin: 0;padding: 0;}
+.row:before, .row:after {content: " ";display: table;}
+.row:after {clear: both;}
+.row {width: 100%;}
+.col {float: left;}
+.one {width: 10%;}
+.two {width: 20%;}
+.three {width: 30%;}
+.third {width: 33%;}
+.four {width: 40%;}
+.five {width: 50%;}
+.six {width: 60%;}
+.seven {width: 70%;}
+.eight {width: 80%;}
+.nine {width: 90%;}
+.third {width: 33%;}
+.fourth {width: 25%;}
+.pointfive {width: 5%;}
+.onepointfive {width: 15%;}
+.container {width: 80%; margin: 0 auto;overflow:hidden;position: relative;}
+.nowrap {white-space: pre;overflow: hidden; text-overflow: ellipsis; word-break: break-all; padding: 5px;}
+.vscroll {overflow-y: scroll;}
+.disabled-button {background: white; color: #eaeaea !important; border-color: #eaeaea !important; cursor: none; pointer-events: none !important;}
+.button { display: inline-block;
+    height: 38px;
+    padding: 0 30px;
+    color: #555;
+    text-align: center;
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    white-space: nowrap;
+    background-color: transparent;
+    border-radius: 4px;
+    border: 1px solid #bbb;
+    box-sizing: border-box;}
+button.button {cursor: pointer;}
+#main-nav {height: 70px;}
+
+.filtered {background: rgb(55,54,59); color: white;}
+.nav-filtered {background: rgb(55,54,59); color: white;}
+.filter-select {cursor: pointer;}
+.cookie-row {font-size: 14px;}
+.cookie-row:nth-child(even) {background: #eaeaea;}
+.pointfive input {margin: 5px;}
+.overlay {position: absolute; top: 0; left: 0; background: rgba(0,0,0,.8);height: 100vh; width: 100vw;}
+.popup {width: 50%; height:50%; margin: 0 auto;overflow:hidden;position: relative;top:20%;}
+.disabledSession {background: #eaeaea !important; pointer-events: none;}
+.popup .row {margin-top:10px;margin-bottom:10px;}
+.dispnone {display: none}
+
+::-webkit-scrollbar-track {
+    background: rgb(55,54,59);
+    border-radius: 2px;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #a2a2a2;
+    border-radius: 5px;
+}
+
+.add-button, .bladd-button, .blsave-button, .save-button {
+    cursor: pointer;
+}
+
+.add-button:hover, .save-button:hover, .bladd-button:hover, .blsave-button:hover {
+    background: rgb(55,54,59);
+    color: white;
+}
+
+.disabled-button {
+    border-color: #ececec;
+    color: #ececec;
+    pointer-events: none;
+    cursor: initial;
+}
+
+.successNotify {
+    background: rgba(16, 196, 105, 0.8);
+    border: 2px solid #10c469;
+}
+
+.infoNotify {
+    background: #07627d;
+    border: 2px solid #35b8e0;
+}
+
+.errorNotify {
+    background: rgba(255, 91, 91, 0.8);
+    border: 2px solid #ff5b5b;
+}
+
+.notify {
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    width: 300px;
+    position: fixed;
+    top: 12px;
+    right: 12px;
+    z-index: 999999;
+    color: white;
+}
+
+.dispnone {
+    display: none;
+}
